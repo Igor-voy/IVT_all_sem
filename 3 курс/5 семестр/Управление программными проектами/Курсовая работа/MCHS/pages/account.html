@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Личный кабинет</title>
+        <link href="for_account.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/529800dfb4.js" crossorigin="anonymous"></script>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- CSS only -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <body style="background-color: #003E78 !important">
+        
+    </head>
+
+    <body>
+
+        <header class="mb-3">
+            <nav class="navbar">
+                <div class="container-fluid">
+                  <h1 class="navbar-brand name-1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/New_emblem_of_the_Russian_Ministry_of_Emergency_Situations.svg/1200px-New_emblem_of_the_Russian_Ministry_of_Emergency_Situations.svg.png" alt="" width="20" height="25" class="d-inline-block align-text-top img-1">МЧС России</h1>
+                  <form class="d-flex">
+                    <button class="button"><a href="main.html">Главная</a></button>
+                  </form>
+                </div>
+              </nav>
+        </header>
+
+        <div class="container">
+            <div class="col-12">
+                <h1 class="dataH">Данные сотрудника</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col-12">
+
+                <form>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <label for="inputSurname" class="name-1">Фамилия</label>
+                            <input type="text" name="Surname" class="form-control" id="inputSurname" placeholder="Фамилия">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="inputName" class="name-1">Имя</label>
+                            <input type="text" name="Name" class="form-control" id="inputName" placeholder="Имя">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <label for="inputPatronymic" class="name-1">Отчество</label>
+                            <input type="text" name="Patronymic" class="form-control" id="inputPatronymic" placeholder="Отчество">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="inputBirthday" class="name-1">Дата рождения</label>
+                            <input type="date" name="Birthday" class="form-control" id="inputBirthday" placeholder="#">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <label for="inputPost" class="name-1">Должность</label>
+                            <input type="text" name="Post" class="form-control" id="inputPost" placeholder="Должность">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="inputRank" class="name-1">Звание</label>
+                            <input type="text" name="Rank" class="form-control" id="inputRank" placeholder="Звание">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <label for="inputIdentity" class="name-1">Удостоверение</label>
+                            <input type="text" name="Identity" class="form-control" id="inputIdentity" placeholder="Номер удостоверения">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="inputAttestation" class="name-1">Аттестация</label>
+                            <select id="inputAttestation" class="form-control">
+                                <option selected>Выбрать</option>
+                                <option>Да</option>
+                                <option>Нет</option>
+                              </select>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <label for="inputDateAttestation" class="name-1">Дата аттестации</label>
+                            <input type="date" name="DateAttestation" class="form-control" id="inputDateAttestation" placeholder="#">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <label for="inputReason" class="name-1">Почему не аттестованы?</label>
+                            <input type="text" name="Reason" class="form-control" id="inputReason" placeholder="Причина">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="submit" class="buttonB mt-3">Изменить</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="" class="buttonB-1 mt-3">Сохранить</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="" class="buttonB-2 mt-3">Удалить</button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+          </div>
+    
+    </body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Сайт</title>
+</head>
+<body>
+		<div style="position: relative; background-color: #FFA07A; width: 100%; height: 100px; top: -20px">
+	  <h1 style="position: relative; text-align: center; top: 25px">Добро пожаловать</h1>
+	</div>
+	<div>
+	  <h2 style="position: relative; text-align: center; top: -25px">Для обучения</h2>
+	</div>
+	<div>
+         <ul>
+            <button style="position: relative; background-color: #FFA07A"><li><a href="">HTML</a></li></button>
+            <button style="position: relative; background-color: #FFA07A"><li><a href="">CSS</a></li></button>
+            <button style="position: relative; background-color: #FFA07A"><li><a href="">JS</a></li></button>
+            <button style="position: relative; background-color: #FFA07A"><li><a href="">Angular</a></li></button>
+            <button style="position: relative; background-color: #FFA07A"><li><a href="">Google</a></li></button>
+            <button style="position: relative; background-color: #FFA07A"><li><a href="">Apple</a></li></button>
+         </ul>
+	</div>
+	<section id="html">
+		<div>
+			<hr>
+	  <h3 style="position: relative; text-align: center">HTML</h3>
+         <p style="position: relative; left: 3%; width: 97%"><big>
+         	HTML (от англ. HyperText Markup Language — «язык гипертекстовой разметки») — стандартизированный язык разметки документов во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке HTML (или XHTML). Язык HTML интерпретируется браузерами; полученный в результате интерпретации форматированный текст отображается на экране монитора компьютера или мобильного устройства.
+         	<br><br>
+         	Язык HTML до 5-й версии определялся как приложение SGML (стандартного обобщённого языка разметки по стандарту ISO 8879). Спецификации HTML5 формулируются в терминах DOM (объектной модели документа).
+         	<br><br>
+         	Язык XHTML является более строгим вариантом HTML, он следует синтаксису XML и является приложением языка XML в области разметки гипертекста.
+         	<br><br>
+         	Во всемирной паутине HTML-страницы, как правило, передаются браузерам от сервера по протоколам HTTP или HTTPS, в виде простого текста или с использованием шифрования.
+         	<br><br>
+         	<img style="position: relative; width: 600px; height: 200px; left: 20%"src="img/img1.jpg">
+         	<br><br>
+         	<a style="position: relative; left: 3%; " href="https://ru.wikipedia.org/wiki/HTML">Wiki-HTML</a>>
+            </big></p>
+            <hr>
+        </div>
+    </section>
+    <section id="css">
+	  <h3 style="position: relative; text-align: center">CSS</h3>
+         <p style="position: relative; left: 3%; width: 97%"><big>
+         	CSS используется создателями веб-страниц для задания цветов, шрифтов, расположения отдельных блоков и других аспектов представления внешнего вида этих веб-страниц. Основной целью разработки CSS являлось отделение описания логической структуры веб-страницы (которое производится с помощью HTML или других языков разметки) от описания внешнего вида этой веб-страницы (которое теперь производится с помощью формального языка CSS). Такое разделение может увеличить доступность документа, предоставить большую гибкость и возможность управления его представлением, а также уменьшить сложность и повторяемость в структурном содержимом.
+         	<br><br>
+            Кроме того, CSS позволяет представлять один и тот же документ в различных стилях или методах вывода, таких как экранное представление, печатное представление, чтение голосом (специальным голосовым браузером или программой чтения с экрана), или при выводе устройствами, использующими шрифт Брайля.
+            <br><br>
+         	<img style="position: relative; width: 200px; height: 200px; left: 45%"src="img/img2.png">
+         	<br><br>
+         	<a style="position: relative; left: 3%; " href="https://ru.wikipedia.org/wiki/CSS">Wiki-CSS</a>>
+            </big></p>
+            <hr>	
+    </section>
+    <section id="js">
+    	
+    </section>
+    <section id="angular">
+    	
+    </section>
+    <section id="google">
+    	
+    </section>
+    <section id="apple">
+    	
+    </section>
+</body>
+</html>

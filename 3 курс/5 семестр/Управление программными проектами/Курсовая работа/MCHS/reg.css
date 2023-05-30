@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+  	font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+	font-size: 14px;
+	background: #003E78;
+}
+
+.header{
+	height: 100px;
+}
+
+
+.footer{
+	height: 30px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.copy{
+	font-size: 20px;
+	color: white;
+	text-align: left;
+}
+
+.registration{
+	background: #014E86;
+	border: 10px solid #67A3FE;
+  	border-top-left-radius: 60px;
+  	border-top-right-radius: 60px;
+  	border-bottom-left-radius: 60px;
+  	border-bottom-right-radius: 60px;
+	height: 300px;
+}
+
+.form-control{
+	height: 40px;
+}
+
+.name-1{
+	font-weight: Bold;
+	color: white;
+}
+
+.name-2{
+    font-weight: Bold;
+	color: white;
+    text-align: center;
+}
+
+.line{
+	height: 3px;
+	background-color: #67A3FE;
+}
+
+.button{
+	width: 225px;
+	height: 30px;
+	font-size: 20px;
+	background-color: #67A3FE;
+	color: #014E86;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	border: none;
+	text-align: center;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+  }

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <title>HTML-презентация</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>Shower Presentation Engine</h1>
+        <p>Yours Truly, Famous Inc.</p>
+    </header>
+
+    <section class="slide" id="cover">
+        <h2>HTML-презентация</h2>
+        <p> Сделал <a href="https://vk.com/id149253266"> Войтенко Игорь </a></p>
+        <figure>
+            <img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
+            <figcaption class="copyright right white">
+                <a href="https://vk.com/id149253266">© Игорь Войтенко</a>
+            </figcaption>
+        </figure>
+        <style>
+            #cover h2 {
+                margin: 30px 0 0;
+                color: white;
+                text-align: center;
+                font-size: 70px;
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                color: white;
+                font-style: italic;
+                font-size: 20px;
+            }
+
+            #cover p a {
+                color: white;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>Немного обо мне</h2>
+        <ol>
+            <li>Увлекаюсь созданием электронной музыки</li>
+            <li>Нравится заниматься спортом на любительском уровне</li>
+            <li>Начал увлекаться программированием в 2018 году</li>
+            <li>Также редакция фотограий и монтаж видео входят в мои увлечения</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Что я преобрел за первый семестр</h2>
+        <p>За пройденный семестр в <a href="https://www.herzen.spb.ru/">РГПУ им.Герцена</a> я преобрел много хороших качеств это: усердие, трудолюбие, а также большое желание подолжать учиться, так как это самое главное в жизни. Помимо этих качеств, я получил
+        	большое количетсво знаний и умение работать с разными утилитами из интернета, такие как <strong>Canva</strong> и т.д.</p>
+    </section>
+
+    <section class="slide">
+        <h2>Плюсы обучения в РГПУ им.Герцена</h2>
+        <ol>
+            <li>Недалеко от метро</li>
+            <li>Хорошие преподаватели</li>
+            <li>Красивый вид
+                <ul>
+                    <li>Около Казанского собора</li>
+                    <li>Много красивых мостов</li>
+                    <li>Множество красивых каналов</li>
+                </ul>
+            </li>
+            <li>Много новых интересных людей</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Начало занятий с понедельника по среду</h2>
+        <table>
+        <tr>
+            <th scope="col">Предмет/день</th>
+            <th>Понедельник</th>
+            <th>Вторник</th>
+            <th>Среда</th>
+        </tr>
+        <tr>
+            <th scope="row">Математика</th>
+            <td>8:00-9:35</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <th scope="row">Физика</th>
+            <td>-</td>
+            <td>-</td>
+            <td>13:30-15:05</td>
+        </tr>
+        <tr>
+            <th scope="row">Физкультура</th>
+            <td>-</td>
+            <td>15:10-16:45</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <th scope="row">История</th>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        </table>
+    </section>
+
+    <section class="slide" id="picture">
+        <h2>Pictures</h2>
+        <figure>
+            <img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
+            <figcaption class="copyright right white">
+                <a href="http://fiftyfootshadows.net/">© Игорь Войтенко</a>
+            </figcaption>
+        </figure>
+        <style>
+            #picture h2 {
+                color: white;
+            }
+        </style>
+    </section>
+
+    <section class="slide" id="see-more">
+        <h2 class="shout">
+            <img src="pictures/logo.png" alt="Shower logo">
+            <a href="https://vk.com/id149253266">Войтенко Игорь</a>
+        </h2>
+        <style>
+            #see-more h2 {
+                font-size: 100px
+            }
+
+            #see-more img {
+                width: 0.72em;
+                height: 0.72em;
+            }
+        </style>
+    </section>
+
+    <footer class="badge">
+        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+    </footer>
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.min.js"></script>
+    <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
+
+</body>
+</html>

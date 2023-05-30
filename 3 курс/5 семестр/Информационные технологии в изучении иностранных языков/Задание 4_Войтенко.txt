@@ -1,0 +1,22 @@
+a query | запрос
+a scroll bar | полоса прокрутки
+a template | шаблон
+a utility | утилита (служебная программа)
+agile methodology | гибкая методология разработки
+an array | массив
+an encoding | кодировка
+an enterprise application | корпоративное приложение
+an executable (file) | исполняемый файл
+an interpreter | интерпретатор
+an operating system (OS) | операционная система
+application software | прикладное программное обеспечение
+aspect-oriented programming (AOP) | аспектно-ориентированное программирование
+binary data | двоичные данные
+commercial software | платное программное обеспечение
+malicious software (malware) | вредоносное программное обеспечение
+spyware | программа-шпион, шпионское программное обеспечение
+bandwidth | пропускная способность (канала передачи данных)
+broadband | широкополосный доступ в интернет
+cloud computing | облачные вычисления
+
+
